@@ -1,0 +1,176 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+}
+#red_color{
+    color: red;
+    font-family: fantasy;
+    font-weight: bolder;
+    font-size: larger;
+}
+/*img {
+    opacity: 0.3;
+    max-height: 100%;
+    width: auto;
+  }*/
+.header{
+    background-image: url(image/donation8.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+ 
+    width: 100%;
+    height: fit-content;
+    display: flow-root;
+    text-align: center;
+    resize: vertical;
+    flex-wrap: wrap;
+    position: fix;
+}
+
+
+.header_title{
+    font-size: 8vw;
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+}
+
+.header_subtitle{
+    text-overflow: clip;
+    font-size: 1.8vw;
+    color: rgb(255, 194, 108);
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.first_button{
+    text-decoration: none;
+    place-content: center;
+    background-color: orange;
+    padding: 10px 40px;
+    size: 3vw;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2vw;
+    background-image: linear-gradient(orangered, orange);
+}
+
+
+.second_part{
+    text-align: center;
+}
+.second_header_title{
+    color: red;
+    font-family: fantasy;
+    font-size: 5vw;
+    text-align: center;
+}
+.middle_subtitle{
+    text-overflow: clip;
+    font-size: 1.8vw;
+    color: orange;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.amount{
+    display: flex;   
+    color: rgb(107, 105, 105);
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.amount_button{
+    background-color: rgb(240, 229, 229);
+    margin: 2%;
+    padding: 3% 3%;
+    font-size: 3vw;
+    border-radius: 5px;
+}
+#button_style{
+    border: 3px solid rgb(219, 55, 55);
+    color: rgb(219, 55, 55);
+    background-color: rgb(236, 180, 180);
+}
+input::placeholder {
+    color: red;
+    font-size: 3vw;
+    text-align: center;
+    
+}
+.amount_input{
+    size: 20rem;
+    width: 30vw;
+    height: 3.5vw;
+    text-decoration: none;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+
+.shadow{
+    
+    box-shadow: 10px 10px 10px gray;
+    width: 45%;
+    margin: 3%;
+    padding: 3%;
+    border-top: 5px solid orangered;
+}
+.form_shadow{
+    
+    box-shadow: 10px 10px 10px gray;
+
+    margin: 0 20%;
+    padding: 2% 6%;
+    border-top: 5px solid orangered;
+}
+.last_banner{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    font-size: 1.5vw ;
+    background-position: left;
+    display: flex;
+}
+form{
+    color: rgb(59, 59, 78);
+    font-size: larger;
+    font-size: 1.5vw;
+
+    
+}
+.form{
+    align-items: center;
+    position: center;
+    text-align: center;
+
+}
+footer{
+    background-color: black;
+    margin: 0;
+}
+
+.box{
+    
+    width: 20%;
+    padding: 2.2%;
+
+    
+}
+picture{
+    width: 100%;
+    border-radius: 15px;
+}
+
+img:hover{
+    transform: scale(2,2);
+    transition: 1.5s  transform;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
